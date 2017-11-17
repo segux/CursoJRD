@@ -3,7 +3,7 @@ package conversor;
 public class ToKelvin implements ConversorTemperaturas {
 
     @Override
-    public double convertFromCelsius(int celsius) {
+    public double convert(int celsius) {
         return celsius + 273.16;
     }
 }

@@ -24,7 +24,7 @@ public class Main {
             sb.append(celsius);
             sb.append(',');
             for (ConversorTemperaturas conversorTemperaturas : conversores) {
-                sb.append(conversorTemperaturas.convertFromCelsius(celsius));
+                sb.append(conversorTemperaturas.convert(celsius));
                 sb.append(',');
             }
 
